@@ -1,7 +1,16 @@
-.section1 {
-    background-color: #1F2937;
-    color: #F9FAF8;    
+.section1, 
+.section2, 
+.section3,
+.section4 {
     font-family: Roboto;
+}
+
+.section1, footer {
+    background-color: #1F2937;
+}
+
+.section1 {
+    color: #F9FAF8;    
     padding: 10px 150px 50px 50px;
 }
 
@@ -15,9 +24,14 @@
     gap: 24px;
 }
 
+.right-nav, .hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .sign-up {
     display: flex;
-    padding-top: 100px;
+    padding-top: 100px;    
     gap: 32px;
 }
 
@@ -27,9 +41,14 @@
     align-items: flex-start;
 } 
 
+img {
+    max-width: 80%;
+    height: auto;
+}
+
 .main-text {
     font-weight: 900;
-    font-size: 48px
+    font-size: 48px;
 }
 
 button {
@@ -41,5 +60,28 @@ button {
 }
 
 .section2 {
-    font-family: Roboto;
+    display: flex;
+}
+
+.info-header {
+    font-size: 36px; 
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    padding: 100px 200px 100px 200px;
+}
+
+.thor-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.thor {
+    text-align: end;
+    font-weight: bold;
 }
