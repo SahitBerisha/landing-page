@@ -1,0 +1,45 @@
+.section1 {
+    background-color: #1F2937;
+    color: #F9FAF8;    
+    font-family: Roboto;
+    padding: 10px 150px 50px 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-nav {
+    display: flex;
+    gap: 24px;
+}
+
+.sign-up {
+    display: flex;
+    padding-top: 100px;
+    gap: 32px;
+}
+
+.sign-up2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+} 
+
+.main-text {
+    font-weight: 900;
+    font-size: 48px
+}
+
+button {
+    background-color: #3882F6;
+    padding: 5px 24px;
+    border-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.section2 {
+    font-family: Roboto;
+}
