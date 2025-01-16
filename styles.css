@@ -1,17 +1,10 @@
-.section1, 
-.section2, 
-.section3,
-.section4 {
-    font-family: Roboto;
-}
-
 .section1, footer {
     background-color: #1F2937;
     color: #F9FAF8;    
 }
 
 .section1 {
-    padding: 10px 150px 50px 50px;
+    padding: 50px 150px;
 }
 
 .navbar {
@@ -31,20 +24,17 @@
 
 .sign-up {
     display: flex;
-    padding-top: 100px;    
-    gap: 32px;
+    padding-top: 100px; 
+    padding-bottom: 100px;   
+    justify-content: space-between;
 }
 
 .sign-up2 {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: flex-start;
 } 
-
-img {
-    max-width: 100%;
-    height: auto;
-}
 
 .main-text {
     font-weight: 900;
@@ -56,13 +46,17 @@ button {
     padding: 5px 24px;
     border-color: #3882F6;
     border-radius: 8px;
+    border-style: solid;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 .section2 {
     display: flex;
-    padding: 50px 100px;
+    padding: 50px 100px 100px 100px;
     text-align: center;
+    justify-content: center;
+    gap: 24px;
 }
 
 .info-header {
@@ -70,6 +64,8 @@ button {
     font-weight: 900;
     color: #1F2937;
     text-align: center;
+    padding: 50px;
+    padding-bottom: 0px;
 }
 
 .section3 {
@@ -80,7 +76,7 @@ button {
 .thor-quote {
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 .thor {
@@ -97,10 +93,20 @@ button {
     background-color: #3882F6;
     border-radius: 5px;
     color: #F9FAF8;
+    font-weight: 300;
+}
+
+.call-button {
+    border-color: #F9FAF8;
+}   
+
+figcaption {
+    max-width: 180px;
 }
 
 body {
     margin: 0;
+    font-family: Roboto;
 }
 
 footer {
